@@ -28,6 +28,8 @@ Yukarıdaki script masaüstünde oluşturmuş olduğumuz “wifi_list.txt” dos
 ### Test Videosu
 [Tıklayınız](https://www.youtube.com/watch?v=Xh_u0xwmcZA)
 
+----------------------------------------------------------------------------------------------------
+
 ![mailSS](mailSS.png)
 
 
