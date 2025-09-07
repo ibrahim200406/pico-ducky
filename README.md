@@ -14,6 +14,15 @@ Ayrıca, Rubber Ducky scriptini çalıştırmadan üzerinde değişiklik yapabil
 ### Uygulama Şifresi
 Uygulama şifresi oluşturmak için ilk önce myaccount.google.com adresine gidip sol taraftaki menüden “Güvenlik” seçeneği seçip 2 Adımda Doğrulama özelliğini etkinleştirin.Daha sonra arama kutusuna Uygulama Şifreleri yazarak ilgili yere Google şifreniz ile giriş yaptıktan sonra 16 haneli şifrenizi oluşturun ve kopyalayıp Tamamlandı seçeneğini seçin.
 
+### Sistemde Minimum İz Bırakmak İçin Aldığımız Önlemler
 
 ```
 STRING (Set-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging" -Name EnableScriptBlockLogging -Value 0)
+
+Yukarıdaki script “ScriptBlockLogging” açık ise poweshell loglarında bundan sonra yazılacak kodların kaydının tutulmasını engelliyor.
+
+'''
+STRING Remove-Item -Path .\wifi_list.txt -Force
+
+Yukarıdaki script masaüstünde oluşturmuş olduğumuz “wifi_list.txt” dosyasını Geri Dönüşüm Kutusu’na göndermeden kalıcı olarak silerek minimum iz bırakmamızı sağlıyor.
+
