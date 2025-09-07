@@ -18,11 +18,11 @@ Uygulama şifresi oluşturmak için ilk önce myaccount.google.com adresine gidi
 
 ```
 STRING (Set-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging" -Name EnableScriptBlockLogging -Value 0)
-
+'''
 Yukarıdaki script “ScriptBlockLogging” açık ise poweshell loglarında bundan sonra yazılacak kodların kaydının tutulmasını engelliyor.
 
 '''
 STRING Remove-Item -Path .\wifi_list.txt -Force
-
+'''
 Yukarıdaki script masaüstünde oluşturmuş olduğumuz “wifi_list.txt” dosyasını Geri Dönüşüm Kutusu’na göndermeden kalıcı olarak silerek minimum iz bırakmamızı sağlıyor.
 
