@@ -22,7 +22,7 @@ STRING (Set-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows\PowerS
 Yukarıdaki script “ScriptBlockLogging” açık ise poweshell loglarında bundan sonra yazılacak kodların kaydının tutulmasını engelliyor.
 
 '''
-STRING Remove-Item -Path .\wifi_list.txt -Force
-'''
+STRING Remove-Item -Path .\wifi_list.txt -Force'''
+
 Yukarıdaki script masaüstünde oluşturmuş olduğumuz “wifi_list.txt” dosyasını Geri Dönüşüm Kutusu’na göndermeden kalıcı olarak silerek minimum iz bırakmamızı sağlıyor.
 
