@@ -12,7 +12,7 @@ Raspberry Pi Pico’nun bilgisayara bağlandığında depolama aygıtı olarak t
 Ayrıca, Rubber Ducky scriptini çalıştırmadan üzerinde değişiklik yapabilmek için Pin 1 ile Pin 3’ü birbirine bağlamanız yeterlidir.
 
 ### Uygulama Şifresi
-Uygulama şifresi oluşturmak için ilk önce myaccount.google.com adresine gidip sol taraftaki menüden “Güvenlik” seçeneği seçip 2 Adımda Doğrulama özelliğini etkinleştirin.Daha sonra arama kutusuna Uygulama Şifreleri yazarak ilgili yere Google şifreniz ile giriş yaptıktan sonra 16 haneli şifrenizi oluşturun ve kopyalayıp Tamamlandı seçeneğini seçin.
+Uygulama şifresi oluşturmak için ilk önce <a href="https://myaccount.google.com/" target="_blank">myaccount.google.com</a> adresine gidip sol taraftaki menüden “Güvenlik” seçeneği seçip 2 Adımda Doğrulama özelliğini etkinleştirin.Daha sonra arama kutusuna Uygulama Şifreleri yazarak ilgili yere Google şifreniz ile giriş yaptıktan sonra 16 haneli şifrenizi oluşturun ve kopyalayıp Tamamlandı seçeneğini seçin.
 
 ### Sistemde Minimum İz Bırakmak İçin Aldığımız Önlemler
 
@@ -24,4 +24,8 @@ Yukarıdaki script “ScriptBlockLogging” açık ise poweshell loglarında bun
 `STRING Remove-Item -Path .\wifi_list.txt -Force`
 
 Yukarıdaki script masaüstünde oluşturmuş olduğumuz “wifi_list.txt” dosyasını Geri Dönüşüm Kutusu’na göndermeden kalıcı olarak silerek minimum iz bırakmamızı sağlıyor.
+
+
+[![Test Videosu](https://img.youtube.com/vi/Xh_u0xwmcZA/0.jpg)](https://www.youtube.com/watch?v=Xh_u0xwmcZA)
+
 
