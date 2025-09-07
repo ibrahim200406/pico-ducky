@@ -25,7 +25,7 @@ Yukarıdaki script “ScriptBlockLogging” açık ise poweshell loglarında bun
 
 Yukarıdaki script masaüstünde oluşturmuş olduğumuz “wifi_list.txt” dosyasını Geri Dönüşüm Kutusu’na göndermeden kalıcı olarak silerek minimum iz bırakmamızı sağlıyor.
 
-### Test Videosu İçin Aşağıdaki Görsele Tıklay
-[![Test Videosu](https://www.youtube.com/watch?v=Xh_u0xwmcZA)
+### Test Videosu
+[Tıklayınız](https://www.youtube.com/watch?v=Xh_u0xwmcZA)
 
 
